@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h2>Snake Game with mahibul</h2>
+
+    <canvas id="gameCanvas" width="400" height="400"></canvas>
+
+    <div class="controls">
+        <button onclick="changeDirection('UP')">⬆️</button>
+        <br>
+        <button onclick="changeDirection('LEFT')">⬅️</button>
+        <button onclick="changeDirection('DOWN')">⬇️</button>
+        <button onclick="changeDirection('RIGHT')">➡️</button>
+    </div>
+
+    <div class="game-controls">
+        <button onclick="startGame()">▶️ Play</button>
+        <button onclick="resetGame()">🔄 Reset</button>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+canvas {
+    border: 2px solid red;
+    background-color: #f0f0f0;
+}
+
+.controls {
+    margin-top: 10px;
+}
+
+button {
+    font-size: 20px;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.game-controls {
+    margin-top: 10px;
+}
